@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File ML env",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "python": "/Users/mojala15/miniconda3/envs/venv-3.9/bin/python",
+            "console": "integratedTerminal"
+        }
+    ]
+}

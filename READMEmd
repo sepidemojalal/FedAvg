@@ -1,0 +1,10 @@
+# Federated Learning with LSTM
+
+This project implements federated learning using an LSTM model to predict accelerations based on input features.
+
+## Requirements
+
+To install the necessary dependencies, run:
+
+```bash
+pip install -r requirements.txt
