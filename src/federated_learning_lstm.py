@@ -40,8 +40,8 @@ def start_federated_learning(X_train, y_train, X_test, y_test):
     fl.client.start_numpy_client(server_address="localhost:8080", client=FLClient(model, client_1_data, client_2_data))
 
 if __name__ == "__main__":
-    train_path = "/mnt/data/X_Train_V_id_19.csv"
-    test_path = "/mnt/data/X_Test_V_id_19.csv"
+    train_path = "/mnt/data/Train_Aggregated.csv"
+    test_path = "/mnt/data/Test_Aggregated.csv"
     
     X_train, y_train, X_test, y_test = load_data(train_path, test_path)
     

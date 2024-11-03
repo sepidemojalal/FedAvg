@@ -48,7 +48,7 @@ class FLClient(fl.client.NumPyClient):
 
 def start_client():
     # Loading training data
-    train_data_df = pd.read_csv("/Users/mojala15/federated/X_Train_V_id_19.csv") 
+    train_data_df = pd.read_csv("/Users/mojala15/federated/Train_Aggregated.csv") 
     # Assuming that 'a1' is the target variable and we have multiple input features
     X_train = train_data_df[['v1', 'delta_x', 'delta_v', 'a1']].values
     y_train = train_data_df['a1'].shift(-10).fillna(0).values  # Adjust as needed

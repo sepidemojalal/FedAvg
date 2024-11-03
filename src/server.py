@@ -1,3 +1,6 @@
+import multiprocessing
+multiprocessing.set_start_method('spawn')
+
 # server.py
 import flwr as fl
 from model.lstm_model import LSTMModel  # Import the LSTM model
